@@ -1,0 +1,49 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+  
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    background: rgb(241, 212, 136);
+}
+
+strong {
+    color: rgb(241, 91, 91);
+}
+
+html {
+    background-color: #9da9b46c;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #50e481c2;
+    text-shadow: 3px 3px 1px rgb(0, 0, 0);
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    background: goldenrod;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    background: rgb(219, 185, 97);
+}
+
+pre {
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #25292f;
+    color: #fff;
+    white-space: pre-wrap;
+  }

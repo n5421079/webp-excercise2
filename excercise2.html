@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>大学生が選ぶHTML要素3選!!!</title>
+  </head>
+  <body>
+    <h1>大学生が選ぶHTML要素3選!!!</h1>
+    <p></p>
+    <h2>はじめに</h2>
+    <p>このページは<strong>日本大学文理学部情報科学科 Webプログラミングの演習課題</strong>であるため誤った情報を記述している場合があります。</p>
+
+    <h2>1.&lt;code&gt;</h2>
+    <h3>説明</h3>
+    <p>code要素はコードをそのまま文字として出すことができる要素です。</p>
+    <h3>サンプルコード</h3>
+    <pre>
+      <code>
+        &lt;code&gt;<br>
+          const myHeading = document.querySelector('h1');<br>
+          myHeading.textContent = 'Hello world!';<br>
+        &lt;/code&gt;        
+      </code>
+    </pre>
+    <h3>実行結果</h3>
+    <pre>
+      <code>
+        const myHeading = document.querySelector('h1');<br>
+        myHeading.textContent = 'Hello world!';
+      </code>
+    </pre>
+
+    <h2>2.&lt;ruby&gt;,&lt;rt&gt;</h2>
+    <h3>説明</h3>
+    <p>
+      ruby要素とrt要素は文字にルビを振ることができる要素です。<br>
+      ruby要素はルビを振る文字に使い、rt要素は振るルビに使います。<br>
+      また、ルビに対応していないブラウザの場合はrt要素の代わりにrp要素を使う方法があります。
+    </p>
+    <h3>サンプルコード</h3>
+    <pre>
+      其の&lt;ruby&gt;疾&lt;rt&gt;はや&lt;/rt&gt;&lt;/ruby&gt;きこと風の&lt;ruby&gt;如&lt;rt&gt;ごと&lt;/rt&gt;&lt;/ruby&gt;く、其の&lt;ruby&gt;徐&lt;rt&gt;しず&lt;/rt&gt;&lt;/ruby&gt;かなること林の如く、&lt;ruby&gt;侵掠&lt;rt&gt;しんりゃく&lt;/rt&gt;&lt;/ruby&gt;すること火の如く、動かざること山の如し、<br>
+      知り難きこと陰の如く、動くこと&lt;ruby&gt;雷霆&lt;rt&gt;らいてい&lt;/rt&gt;&lt;/ruby&gt;の如し、郷を&lt;ruby&gt;掠&lt;rt&gt;かす&lt;/rt&gt;&lt;/ruby&gt;めて衆を分かち、地を&lt;ruby&gt;廓&lt;rt&gt;ひろ&lt;/rt&gt;&lt;/ruby&gt;めて利を分かち、権を懸けて動く。
+      
+    </pre>
+    <h3>実行結果</h3>
+    <pre>
+      其の<ruby>疾<rt>はや</rt></ruby>きこと風の<ruby>如<rt>ごと</rt></ruby>く、其の<ruby>徐<rt>しず</rt></ruby>かなること林の如く、<ruby>侵掠<rt>しんりゃく</rt></ruby>すること火の如く、動かざること山の如し、<br>
+      知り難きこと陰の如く、動くこと<ruby>雷霆<rt>らいてい</rt></ruby>の如し、郷を<ruby>掠<rt>かす</rt></ruby>めて衆を分かち、地を<ruby>廓<rt>ひろ</rt></ruby>めて利を分かち、権を懸けて動く。
+    </pre>
+
+    <h2>3.&lt;strong&gt;</h2>
+    <h3>説明</h3>
+    <p>strong要素は強調したい文字を強調することができます。</p>
+    <h3>サンプルコード</h3>
+    <pre>&lt;strong&gt;注意:&lt;strong&gt;これはサンプルコードです！！</pre>
+    <h3>実行結果</h3>
+    <pre><strong>注意:</strong>これはサンプルコードです！！</pre>
+
+    <h2>最後に</h2>
+    <p>
+      ここまで読んでくださりありがとうございました！<br>
+      以上、<strong>5421079 高橋 歩</strong>のWebプログラミング演習課題でした。
+    </p>
+  </body>
+</html>
